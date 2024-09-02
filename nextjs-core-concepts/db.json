@@ -1,0 +1,64 @@
+{
+	"bikes": [
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b01",
+			"title": "Yamaha YZF R15",
+			"description": "A sportbike with a powerful 155cc engine, aerodynamic design, and advanced features for a thrilling ride.",
+			"price": 4950
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b02",
+			"title": "Honda CBR 150R",
+			"description": "A lightweight, agile bike designed for both city and highway riding, equipped with a 149cc engine.",
+			"price": 120
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b03",
+			"title": "Kawasaki Ninja 300",
+			"description": "A high-performance bike with a 296cc engine, designed for both beginners and experienced riders.",
+			"price": 1504500
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b04",
+			"title": "Suzuki Gixxer SF 250",
+			"description": "A stylish and sporty bike with a 249cc engine, perfect for those who seek a balance of performance and comfort.",
+			"price": 130
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b05",
+			"title": "BMW G 310 R",
+			"description": "A premium roadster bike with a 313cc engine, designed for urban commuting and weekend adventures.",
+			"price": 200
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b06",
+			"title": "Ducati Monster 797",
+			"description": "A naked bike with a 803cc engine, offering an iconic design and thrilling performance.",
+			"price": 250
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b07",
+			"title": "Royal Enfield Himalayan",
+			"description": "An adventure bike with a 411cc engine, built for tough terrains and long rides.",
+			"price": 140
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b08",
+			"title": "Harley-Davidson Street 750",
+			"description": "A cruiser bike with a 749cc engine, known for its bold design and smooth ride.",
+			"price": 300
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b09",
+			"title": "KTM Duke 390",
+			"description": "A naked bike with a 373cc engine, offering a lightweight frame and aggressive styling.",
+			"price": 160
+		},
+		{
+			"_id": "64f02a7f9c8b4b6d8c8e8b0a",
+			"title": "Triumph Street Triple RS",
+			"description": "A streetfighter bike with a 765cc engine, delivering high performance with cutting-edge technology.",
+			"price": 280
+		}
+	]
+}

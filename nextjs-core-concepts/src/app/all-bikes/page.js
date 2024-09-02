@@ -1,28 +1,13 @@
-import Link from "next/link";
-
-export const metadata = {
-  title: "Home page",
-  description: "This is home page",
-};
-
-const HomePage = async () => {
-  const res = await fetch("http://localhost:5000/bikes", {
-    next: {
-      revalidate: 30,
-    },
-  });
+const AllBikesPage = async () => {
+  const res = await fetch("http://localhost:5000/bikes", { cache: "no-store" });
   const bikes = await res.json();
 
-  throw new Error("Error from home page!!");
-
   return (
-    <div className="min-h-screen px-24 ">
-      <h2 className="text-3xl font-semibold py-8 text-center">
-        Welcome To Next.js Home Page{" "}
-      </h2>
+    <div className="min-h-screen px-24">
+      <h2 className="text-3xl font-semibold py-8 text-center ">All Bikes</h2>
 
       <div className="grid grid-cols-3 gap-6">
-        {bikes?.slice(0, 3).map((bike) => (
+        {bikes?.map((bike) => (
           <div
             key={bike?._id}
             className="card card-compact bg-base-100  shadow-xl"
@@ -44,15 +29,8 @@ const HomePage = async () => {
           </div>
         ))}
       </div>
-
-      <div className="my-8 text-center">
-        <Link href="/all-bikes">
-          {" "}
-          <button className="btn btn-primary">See all bike</button>
-        </Link>
-      </div>
     </div>
   );
 };
 
-export default HomePage;
+export default AllBikesPage;
