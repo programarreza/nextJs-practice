@@ -45,7 +45,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link href={"/"} className="btn btn-ghost text-xl">daisyUI</Link>
+          <Link href={"/"} className="btn btn-ghost text-xl">
+            Logo
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -54,19 +56,22 @@ const Navbar = () => {
             </li>
             <li>
               <details>
-                <summary>Parent</summary>
+                <summary>Dashboard</summary>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <Link href="/dashboard/user">User</Link>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <Link href="/dashboard/admin">Admin</Link>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
               <Link href="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link href="/products">Products</Link>
             </li>
           </ul>
         </div>

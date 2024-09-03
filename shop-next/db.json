@@ -1,0 +1,65 @@
+{
+	"products": [
+	  {
+		"title": "Wireless Headphone",
+		"description": "High-quality wireless headphones with noise cancellation and 20 hours of battery life.",
+		"price": 150.99,
+		"image": "https://i.postimg.cc/G2VQYRY8/Headphones-primary-tout-mobile-1534x1083.webp"
+	  },
+	  {
+		"title": "Gaming Mouse",
+		"description": "Ergonomic gaming mouse with customizable RGB lighting and 7 programmable buttons.",
+		"price": 49.99,
+		"image": "https://i.postimg.cc/FFLSH8r6/design-medium.jpg"
+	  },
+	  {
+		"title": "4K Action Camera",
+		"description": "Compact action camera with 4K recording, waterproof design, and wide-angle lens.",
+		"price": 199.99,
+		"image": "https://i.postimg.cc/63WSznHs/google-pixel-headphones-1.webp"
+	  },
+	  {
+		"title": "Smartphone",
+		"description": "Latest smartphone with 6.5-inch display, dual cameras, and 128GB storage.",
+		"price": 699.00,
+		"image": "https://i.postimg.cc/6ptfDrnq/Samsung-Galaxy-S23-Ultra-vs-Galaxy-S23-placed-on-a-table-840w-472h.jpg.webp"
+	  },
+	  {
+		"title": "Bluetooth Speaker",
+		"description": "Portable Bluetooth speaker with 360-degree sound and 12 hours of playtime.",
+		"price": 89.99,
+		"image": "https://i.postimg.cc/52hH6HLL/Lenovo-HQ08-Gaming-Wireless-Bluetooth-Earbuds-3.jpg"
+	  },
+	  {
+		"title": "Mechanical Keyboard",
+		"description": "Durable mechanical keyboard with customizable RGB backlighting and tactile switches.",
+		"price": 75.49,
+		"image": "https://i.postimg.cc/nr0QBbXb/FABW-Z2-XEAAr-G0s90.jpg"
+	  },
+	  {
+		"title": "HD Webcam",
+		"description": "1080p HD webcam with built-in microphone and automatic light correction.",
+		"price": 59.99,
+		"image": "https://i.postimg.cc/RZ3fRcff/49449-96666-Starlight-MacBook-Air-xl.jpg"
+	  },
+	  {
+		"title": "Wireless Charger",
+		"description": "Fast wireless charger compatible with Qi-enabled devices, includes LED indicator.",
+		"price": 25.99,
+		"image": "https://i.postimg.cc/G2VQYRY8/Headphones-primary-tout-mobile-1534x1083.webp"
+	  },
+	  {
+		"title": "Tablet",
+		"description": "10-inch tablet with high-resolution display, 64GB storage, and stylus support.",
+		"price": 329.99,
+		"image": "https://i.postimg.cc/FFLSH8r6/design-medium.jpg"
+	  },
+	  {
+		"title": "Smartwatch",
+		"description": "Feature-rich smartwatch with fitness tracking, heart rate monitor, and customizable watch faces.",
+		"price": 149.00,
+		"image": "https://i.postimg.cc/63WSznHs/google-pixel-headphones-1.webp"
+	  }
+	]
+  }
+  
