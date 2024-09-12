@@ -7,6 +7,7 @@ const PopularProduct = async () => {
       revalidate: 30,
     },
   });
+
   const products = await res.json();
 
   return (
